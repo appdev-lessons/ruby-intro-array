@@ -163,8 +163,12 @@ the_numbers = ["1", "3", "5", "18"]
 
 You should try and only use the variable `the_numbers` to write your code and you **should not try to redefine `the_numbers` on a later line** as e.g.
 
-```ruby
+```ruby{3}
+the_numbers = ["1", "3", "5", "18"]
+# write your program here
 the_numbers = ["9", "2", "7"]
+
+pp the_numbers[-2]
 ```
 
 Rather, you would write your code such that our provided variable outputs the expected result from the question description.
