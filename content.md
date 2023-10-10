@@ -149,6 +149,31 @@ pp cities.last
 
 In the graded code block below, make both tests pass by printing the square of the second to last `String` in `the_numbers` as a `Float` (recall `.to_i` and `.to_f`):
 
+<div class="bg-red-100 py-1 px-5" markdown="1">
+
+**STOP and read this before you solve the exercise.**
+
+In our graded code blocks, you will often see a grayed out area that you can't change, like the one below. This is usually a variable (or a few variables that are randomly sampled) that we provide for you to try and write code that works for _each_ of the potential inputs in the gray area. 
+
+That means if the grayed area gave you:
+
+```ruby
+the_numbers = ["1", "3", "5", "18"]
+```
+
+You should try and only use the variable `the_numbers` to write your code and you **should not try to redefine `the_numbers` on a later line** as e.g.
+
+```ruby
+the_numbers = ["9", "2", "7"]
+```
+
+Rather, you would write your code such that our provided variable outputs the expected result from the question description.
+
+In the imaginary world that our tests below each code block works in, the `the_numbers = ["1", "3", "5", "18"]` grayed out line is replaced by, e.g. `the_numbers = ["9", "2", "7"]`. _Our tests can modify the grayed area, but you cannot_.
+
+The takeaway: You should not try to hard code the test requirements. Get your code to pass for all of the inputs that we supply in the grayed out area; then, when you run the tests, all of them should pass. The tests will replace the grayed area with a few different inputs to see if those cases also pass.
+</div>
+
 ```ruby
 the_numbers = ["1", "3", "5", "18"]
 # write your program here
