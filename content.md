@@ -173,7 +173,7 @@ pp the_numbers[-2]
 
 Rather, you would write your code such that our provided variable outputs the expected result from the question description.
 
-In the imaginary world that our tests below each code block works in, the `the_numbers = ["1", "3", "5", "18"]` grayed out line is replaced by, e.g. `the_numbers = ["9", "2", "7"]`. _Our tests can modify the grayed area, but you cannot_.
+In the imaginary world of our tests below each code block, the `the_numbers = ["1", "3", "5", "18"]` grayed out line is replaced by, e.g. `the_numbers = ["9", "2", "7"]`. _Our tests can modify the grayed area, but you cannot_.
 
 The takeaway: You should not try to hard code the test requirements. Get your code to pass for all of the inputs that we supply in the grayed out area; then, when you run the tests, all of them should pass. The tests will replace the grayed area with a few different inputs to see if those cases also pass.
 </div>
