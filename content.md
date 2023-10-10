@@ -151,7 +151,7 @@ In the graded code block below, make both tests pass by printing the square of t
 
 <div class="bg-red-100 py-1 px-5" markdown="1">
 
-**STOP and read this before you solve the exercise.**
+#### **STOP and read this before you solve the exercise**
 
 In our graded code blocks, you will often see a grayed out area that you can't change, like the one below. This is usually a variable (or a few variables that are randomly sampled) that we provide for you to try and write code that works for _each_ of the potential inputs in the gray area. 
 
